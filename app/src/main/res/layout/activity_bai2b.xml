@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai2b">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usb" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="254dp"
+        android:layout_height="73dp"
+        android:text="USB Bluetooth Music Receiver biến loa thường thành loa bluetooth"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="186dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="172dp"
+        android:text="Cực kỳ hài lòng"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="186dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/camera"
+        android:drawablePadding="5dp"
+        android:text="Thêm hình ảnh"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="290dp"
+        android:layout_height="168dp"
+        android:text="Hãy chia sẽ những điều bạn thích về sản phẩm"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="290dp"
+        android:layout_height="53dp"
+        android:text="GỬI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="631dp"
+        android:backgroundTint="#2669ad"
+        android:textSize="23dp"
+        android:textStyle="bold"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
